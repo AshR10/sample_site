@@ -1,0 +1,54 @@
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(43, 34, 43);
+    overflow: hidden;
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-weight: bolder;
+    font-family: hack;
+}
+
+.navbar li{
+    background-color: rgb(133, 99, 99);
+    display: block;
+    padding: 30px 15px 30px 15px;
+}
+
+
+li::first-letter{
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar li:hover{
+    background-color: hsl(251, 57%, 87%);
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#sym{
+    background-color: unset;
+    position: absolute;
+    right: 0px;
+    padding: 30px 35px 30px 15px;
+    font-size: larger;
+    font-weight: bolder;
+}

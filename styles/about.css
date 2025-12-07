@@ -1,0 +1,29 @@
+@import url(navbar.css);
+
+body{
+    margin: 0;
+    background-color: rgba(68, 68, 68, 0.516);
+    background-image: url(images/web.png);
+    background-size: 700px;
+    background-position: 50% 180px;
+    background-repeat: no-repeat;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: hack;
+    color: beige;
+    background-color: gray;
+    border: 2px solid hsl(251, 57%, 87%);
+    border-radius: 1%;
+    margin: 350px 500px 300px 500px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+

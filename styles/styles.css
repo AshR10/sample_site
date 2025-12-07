@@ -1,0 +1,44 @@
+@import url(navbar.css);
+
+header{
+    background-color: rgba(0, 0, 0, 0.323);
+    color:beige;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    font-family: Hack;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+body{
+    margin: 0;
+    background-color: rgba(68, 68, 68, 0.516);
+    background-image: url(images/web.png);
+    background-size: 700px;
+    background-position: 50% 180px;
+    background-repeat: no-repeat;
+}
+
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: hack;
+    color: beige;
+    background-color: gray;
+    border: 2px solid hsl(251, 57%, 87%);
+    border-radius: 1%;
+    margin: 200px 500px 30px 500px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
