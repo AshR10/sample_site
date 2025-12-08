@@ -1,0 +1,112 @@
+@import url(navbar.css);
+
+header{
+    background-color: rgba(0, 0, 0, 0.323);
+    color:beige;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    font-family: Hack;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+body{
+    margin: 0;
+    background-color: rgba(68, 68, 68, 0.516);
+    background-image: url("../images/web.png");
+    background-size: 700px;
+    background-position: 50% 180px;
+    background-repeat: no-repeat;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid violet;
+    border-radius: 15px;
+    background-color: rgb(93, 124, 124);
+    margin: 50px;
+    box-shadow: inset 0 0 10px cyan;
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+    float: left;
+}
+
+.content-box h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: underline violet solid 2px;
+    font: Hack;
+}
+
+.content-box #sub{
+    display: flex;
+    font-size: medium;
+    margin: 2px;
+}
+
+.content-box #sub2{
+    display: flex;
+    font-size: medium;
+    margin: 2px;
+}
+
+.content-box #sub3{
+    display: flex;
+    font-size: medium;
+    margin: 2px;
+}
+
+
+.content-box img{
+    margin: 10px;
+}
+
+.sidebar{
+    float: left;
+    border: solid 2px red 10px;
+    box-shadow: inset 0 0 10px cyan;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: auto;
+    background-color: aquamarine;
+}
+
+.endbar{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border: solid 2px red 2px;
+    box-shadow: inset 0 0 10px cyan;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: teal;
+    align-items: center;
+    margin-left: auto;
+}
+
+.endbar video{
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+.endbar audio{
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+label{
+    margin-top: 10px;
+}
