@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <logo src="images/logo.png" alt="Website Logo">
+    <link rel="stylesheet" href="styles/p2.css"/>
+    <script src="script.js" defer></script>
+        
+</head>
+<body>
+    <label for="i1">input 1</label>
+    <input id="i1" type="number" placeholder="number">
+    <br>
+    <label for="i2">input 2</label>
+    <input id="i2" type="number" placeholder="number">
+    <br>
+   <select id="drop">
+    <option value="add">Add</option>
+    <option value="subtract">Subtract</option>
+    <option value="multiply">Multiply</option>
+    <option value="divide">Divide</option>
+   </select>
+    <br>
+    <button type="submit" onclick="calculate()">Submit</button>
+    <br>
+    <label for="result">result</label>
+    <div id="result">
+    </div>
+    <a href="index.html">go to home</a>
+</body>
+</html>
